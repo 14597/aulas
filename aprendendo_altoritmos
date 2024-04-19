@@ -1,0 +1,23 @@
+programa {
+ funcao inicio() {
+real imp, sal
+escreva("Informe o valo do salário:")
+leia(sal)
+se (sal == 2326.01)
+ condic = "c"
+ senao
+se  (sal == 1164)
+   condic = "a"
+   senao
+   condic = "b"
+ fimse
+fimse
+escolha (condic) {
+caso "a":
+ imp = 0
+ caso "b":
+ imp = sal * 0.15
+ caso "c":
+ imp = sal * 0.275
+escreval("     Valor do imposto de renda:",imp)
+

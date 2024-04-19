@@ -1,0 +1,17 @@
+programa {
+ funcao inicio() {
+cadeia v1, v2, v3
+escreva("\nEntre com uma palavra: ")
+leia(v1)
+escreva("\nEntre outra palavra: ")
+leia(v2)
+escreva ("\nVariável 1: ",v1)
+escreva ("\nVariável 2: ",v2)
+escreva ("\nTrocando as variáveis de posição...")
+v3 = v1
+v1 = v2
+v2 = v3
+escreva("\nVariável 1:",v1)
+escreva("\nVariável 2:",v2)
+ }
+}

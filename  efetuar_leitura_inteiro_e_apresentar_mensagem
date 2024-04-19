@@ -1,0 +1,9 @@
+ Início
+ Ler número inteiro
+ Se número inteiro % 2 == 0 então
+     Escrever "O número é par"
+ Senão
+     Escrever "O número é ímpar"
+ Fim se
+ Fim
+
